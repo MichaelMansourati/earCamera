@@ -1,11 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import '../styles/page-2.scss'
+
 const SecondPage = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+  <div className="mainContainer">
+    <div className="splash">
+      <p className="downArrow">⌄</p>
+    </div>
+    <h1>ear camera</h1>
+    <p> lorem ipsum </p>
   </div>
 )
 
