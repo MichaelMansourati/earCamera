@@ -8,7 +8,6 @@ import '../styles/index.scss'
 const IndexPage = () => (
   <div className="mainContainer">
     <div className="splash">
-      <img className="topImage" src="https://i.imgur.com/25o7wqP.jpg"/>
       <p className="downArrow">⌄</p>
     </div>
     <div className="contentArea">
