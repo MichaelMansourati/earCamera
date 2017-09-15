@@ -21,9 +21,10 @@ div.mainContainer {
     }
   }
   div.contentArea {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    width: 100%;
     h1#title {
       align-self: center;
       font-size: 50px;
@@ -35,14 +36,17 @@ div.mainContainer {
     }
     div.page-goes-here {
       display: flex;
-      margin-top: 80px;
+      margin: 80px 40px;
       align-self: center;
       align-items: center;
+      max-width: 100%;
+      overflow-x: scroll;
       div.textArea {
         display: flex;
         flex-direction: column;
         width: 300px;
         text-align: justify;
+        overflow-x: scroll;
       }
       div.exampleImage {
         margin-left: 20px;
@@ -56,20 +60,18 @@ div.mainContainer {
 }
 
 
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
-  .topImage {
-    height: 1024px;
-  }
-}
+@media (max-width: 879px) {
+  div.mainContainer {
+    div.contentArea {
+      div.page-goes-here {
+        flex-direction: column;
+        max-width: 100%;
+        div.textArea {
+          width: auto;
+          max-width: 100%;
 
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
-  img.topImage {
-    height: 768px;
-  }
-}
-
-@media all and (device-width: 375px) and (device-height: 667px) and (orientation:portrait){
-  img.topImage {
-    height: 667px;
+        }
+      }
+    }
   }
 }
