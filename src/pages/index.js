@@ -13,12 +13,7 @@ const IndexPage = () => (
     </div>
     <div className="textArea">
       <h1 id="title">ear camera</h1>
-      <div className="navigation">
-        <Link to="/about/">about</Link>
-        <Link to="/media/">media</Link>
-        <Link to="/personnel">personnel</Link>
-        <Link to="events">events</Link>
-      </div>
+      <p className="lazyAss">site forthcoming</p>
     </div>
   </div>
 )
