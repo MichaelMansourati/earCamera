@@ -6,9 +6,10 @@ div.mainContainer {
   div.splash {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     img.topImage {
       object-fit: cover;
-      height: 100vh;
+      height: 100%;
       width: 100vw;
       margin: 0px;
     }
@@ -19,15 +20,36 @@ div.mainContainer {
       color: white;
     }
   }
-  div.textArea {
+  div.contentArea {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     h1#title {
       align-self: center;
       font-size: 50px;
     }
-    p.lazyAss {
+    div.navigation {
+      justify-content: space-evenly;
+      display: flex;
+      flex-direction: row;
+    }
+    div.page-goes-here {
+      display: flex;
+      margin-top: 80px;
       align-self: center;
+      align-items: center;
+      div.textArea {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+      }
+      div.exampleImage {
+        margin-left: 20px;
+        img.theBand {
+          width: 600px;
+          height: auto;
+        }
+      }
     }
   }
 }
