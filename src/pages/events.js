@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import '../styles/page-2.scss'
+import '../styles/events.scss'
 
 const SecondPage = () => (
   <div className="mainContainer">
