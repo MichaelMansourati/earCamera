@@ -1,11 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-
 
 import '../styles/index.scss'
 
-
-const IndexPage = () => (
+const about = () => (
   <div className="page-goes-here">
     <div className="textArea">
       <h3>Lorem ipsum</h3>
@@ -25,4 +22,4 @@ const IndexPage = () => (
   </div>
 )
 
-export default IndexPage
+export default about

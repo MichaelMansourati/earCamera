@@ -7,11 +7,11 @@ html {
   div.mainContainer {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
     div.splash {
-      display: flex;
-      flex-direction: column;
+      display: -webkit-flex;
+      -webkit-flex-direction: column;
       align-items: center;
       height: 100vh;
       justify-content: flex-end;
@@ -23,28 +23,28 @@ html {
     div.contentArea {
       background-color: white;
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
+      display: -webkit-flex;
+      -webkit-flex-direction: column;
       width: 100%;
       h1#title {
         align-self: center;
         font-size: 50px;
       }
       div.navigation {
-        justify-content: space-evenly;
-        display: flex;
-        flex-direction: row;
+        -webkit-justify-content: space-evenly;
+        display: -webkit-flex;
+        -webkit-flex-direction: row;
       }
       div.page-goes-here {
-        display: flex;
-        margin: 80px 40px;
+        display: -webkit-flex;
+        margin: 60px 40px 0px 40px;
         align-self: center;
         align-items: center;
         max-width: 100%;
         overflow-x: scroll;
         div.textArea {
-          display: flex;
-          flex-direction: column;
+          display: -webkit-flex;
+          -webkit-flex-direction: column;
           width: 300px;
           text-align: justify;
           overflow-x: scroll;
@@ -64,6 +64,9 @@ html {
 @media (max-width: 879px) {
   html {
     div.mainContainer {
+      div.splash {
+        display: none;
+      }
       div.contentArea {
         div.page-goes-here {
           flex-direction: column;
