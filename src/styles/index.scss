@@ -37,23 +37,21 @@ html {
       }
       div.page-goes-here {
         display: -webkit-flex;
-        margin: 60px 40px 0px 40px;
+        flex-direction: row;
+        margin: 60px 25px 0px 25px;
         align-self: center;
-        align-items: center;
         max-width: 100%;
-        overflow-x: scroll;
-        div.textArea {
-          display: -webkit-flex;
-          -webkit-flex-direction: column;
-          width: 300px;
-          text-align: justify;
-          overflow-x: scroll;
-        }
-        div.exampleImage {
-          margin-left: 20px;
+        div.imgs {
+          display: flex;
+          width: 900px;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          img.description {
+            width: 33%;
+          }
           img.theBand {
-            width: 600px;
-            height: auto;
+            width: 66%;
           }
         }
       }
@@ -63,6 +61,7 @@ html {
 
 @media (max-width: 879px) {
   html {
+    background: none;
     div.mainContainer {
       div.splash {
         display: none;
@@ -71,10 +70,18 @@ html {
         div.page-goes-here {
           flex-direction: column;
           max-width: 100%;
-          div.textArea {
-            width: auto;
-            max-width: 100%;
-
+          div.imgs {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            img.description {
+              width: 80%;
+              height: auto;
+            }
+            img.theBand {
+              width: 80%;
+              height: auto;
+            }
           }
         }
       }
