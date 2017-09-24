@@ -1,22 +1,25 @@
-div.mainContainer {
-  display: flex;
-  flex-direction: column;
-  div.splash {
-    // height: 100vh;
-    // background: url(https://i.imgur.com/25o7wqP.jpg) no-repeat center center fixed;
-    // -webkit-background-size: cover;
-    // -moz-background-size: cover;
-    // -o-background-size: cover;
-    // background-size: cover;
-    // display: flex;
-    // flex-direction: column;
-    p.downArrow {
-      align-self: center center;
-      color: white;
+html {
+  background: none;
+  div.mainContainer {
+    display: flex;
+    flex-direction: column;
+    div.splash {
+      // height: 100vh;
+      // background: url(https://i.imgur.com/25o7wqP.jpg) no-repeat center center fixed;
+      // -webkit-background-size: cover;
+      // -moz-background-size: cover;
+      // -o-background-size: cover;
+      // background-size: cover;
+      // display: flex;
+      // flex-direction: column;
+      p.downArrow {
+        align-self: center center;
+        color: white;
+      }
     }
-  }
-  h1 {
-    align-self: center;
-    font-size: 50px;
+    h1 {
+      align-self: center;
+      font-size: 50px;
+    }
   }
 }

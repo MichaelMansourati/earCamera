@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-
 import '../styles/index.scss'
 
+import transcripts from '../images/transcripts.png'
+import ensemble from '../images/ensemble.jpg'
 
 const IndexPage = () => (
   <div className="mainContainer">
@@ -21,8 +22,8 @@ const IndexPage = () => (
       </div>
       <div className="page-goes-here">
         <div className="imgs">
-          <img className="description" src="https://i.imgur.com/7wOl0dY.png"/>
-          <img className="theBand" src="https://i.imgur.com/Hn4qTke.jpg"/>
+          <img className="description" src={transcripts}/>
+          <img className="theBand" src={ensemble}/>
         </div>
       </div>
     </div>

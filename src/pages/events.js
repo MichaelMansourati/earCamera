@@ -5,9 +5,6 @@ import '../styles/events.scss'
 
 const SecondPage = () => (
   <div className="mainContainer">
-    <div className="splash">
-      <p className="downArrow">⌄</p>
-    </div>
     <h1>ear camera</h1>
     <p> lorem ipsum </p>
   </div>
