@@ -1,5 +1,5 @@
 html {
-  background: url(https://i.imgur.com/25o7wqP.jpg) no-repeat center center fixed;
+  background: url("../images/blur.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,7 +17,7 @@ html {
       justify-content: flex-end;
       p.downArrow {
         font-size: 80px;
-        color: white;
+        color: black;
       }
     }
     div.contentArea {
@@ -61,7 +61,7 @@ html {
 
 @media (max-width: 879px) {
   html {
-    background: none;
+    background: white !important;
     div.mainContainer {
       div.splash {
         display: none;

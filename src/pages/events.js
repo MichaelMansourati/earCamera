@@ -1,13 +1,17 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import Navbar from '../components/navbar.js'
+
 import '../styles/events.scss'
 
-const SecondPage = () => (
+const events = () => (
   <div className="mainContainer">
-    <h1>ear camera</h1>
-    <p> lorem ipsum </p>
+    <div className="contentArea">
+      <h1 id="title">ear camera</h1>
+      <Navbar/>
+    </div>
   </div>
 )
 
-export default SecondPage
+export default events

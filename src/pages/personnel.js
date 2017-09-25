@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import Navbar from '../components/navbar.js'
+
 import '../styles/personnel.scss'
 import  bio_EC from '../images/bio_EC.svg'
 import  Glaser_polaroid from '../images/Glaser_polaroid_compressed.png'
@@ -12,13 +14,7 @@ const Personnel = () => (
   <div className="mainContainer">
     <div className="contentArea">
       <h1 id="title">ear camera</h1>
-      <div className="navigation">
-        <Link className="link" to="/about/">about</Link>
-        <Link className="link" to="/media/">media</Link>
-        <Link className="link" to="/personnel">personnel</Link>
-        <Link className="link" to="/events/">events</Link>
-        <Link className="link" to="/another-thing/">another thing</Link>
-      </div>
+      <Navbar/>
       <div className="page-goes-here personnel">
         <div className="textArea">
           <h2>Personnel</h2>
@@ -75,7 +71,24 @@ const Personnel = () => (
               <div className="bioText">
                 <h3 className="name">Michael Mansourati</h3>
                 <p>
-                  ♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪music is my life♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
+                  Michael<br/>
+                  Is<br/>
+                  Cool<br/>
+                  Haha<br/>
+                  And<br/>
+                  Eats<br/>
+                  Lemons?<br/><br/>
+
+                  Michael<br/>
+                  Also<br/>
+                  Never<br/>
+                  Saw<br/>
+                  Or<br/>
+                  Understood<br/>
+                  Reasonable<br/>
+                  Approaches<br/>
+                  To<br/>
+                  Introductions
                 </p>
                 <a href="https://www.michaelmansourati.com">michaelmansourati.com</a>
               </div>
