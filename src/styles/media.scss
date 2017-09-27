@@ -4,11 +4,20 @@ html {
       div.page-goes-here {
         justify-content: center;
         display: flex;
-        img.legg {
-          transform: rotate(90deg);
-          height: 500px;
-          width: auto;
-          margin: 83px 0;
+        flex-direction: row;
+        div.centeringDiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          p.mediaForthcoming {
+            text-decoration: italic;
+          }
+          img.legg {
+            width: 430px;
+            max-width: 100%;
+            height: 100%;
+            margin-bottom: 0;
+          }
         }
       }
     }

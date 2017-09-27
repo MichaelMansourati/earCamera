@@ -13,8 +13,10 @@ const media = () => (
       <h1 id="title">ear camera</h1>
       <Navbar/>
       <div className="page-goes-here">
-        <p>media forthcoming</p>
-        <img className="legg" src={legg} width="500px"/>
+        <div className="centeringDiv">
+          <p className="mediaForthcoming"><i>media forthcoming</i></p>
+          <img className="legg" src={legg} />
+        </div>
       </div>
     </div>
   </div>
