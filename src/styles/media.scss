@@ -1,11 +1,15 @@
 html {
   div.mainContainer {
     div.contentArea {
-      img.legg {
-        transform: rotate(90deg);
-        height: 500px;
-        width: auto;
-        margin-bottom: 25px;
+      div.page-goes-here {
+        justify-content: center;
+        display: flex;
+        img.legg {
+          transform: rotate(90deg);
+          height: 500px;
+          width: auto;
+          margin: 83px 0;
+        }
       }
     }
   }

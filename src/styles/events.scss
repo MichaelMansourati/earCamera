@@ -1,10 +1,9 @@
 html {
   div.mainContainer {
-    display: flex;
-    flex-direction: column;
+    div.contentArea {
+      div.page-goes-here {
+        width: 900px;
+      }
     }
-  h1 {
-    align-self: center;
-    font-size: 50px;
   }
 }
