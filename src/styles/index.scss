@@ -9,6 +9,11 @@ html {
     height: 100%;
     display: -webkit-flex;
     -webkit-flex-direction: column;
+    div.mobileSplash {
+      display: none;
+      img.mobileSplash {
+      }
+    }
     div.splash {
       display: -webkit-flex;
       -webkit-flex-direction: column;
@@ -58,6 +63,14 @@ html {
   html {
     background: white !important;
     div.mainContainer {
+      div.mobileSplash {
+        display: block;
+        img.legg {
+          width: 100%;
+          overflow-x: hidden;
+          margin: auto;
+        }
+      }
       div.splash {
         display: none;
       }

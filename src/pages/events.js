@@ -15,8 +15,8 @@ const events = () => (
           <div className="event">
             <h3>Friday, October 13th 2017</h3>
             <p>
-              Ear Camera presents: <strong>Body Language</strong><br/>
-              Ear Camera présente: <strong>language corporel</strong>
+              <strong>Body Language</strong><br/>
+              <strong>Language Corporel</strong>
             </p>
             <p>
               Psychic City // portes 19h | 7pm doors, concert 20h | 8pm show // BYOB // $5 ou | or PWYC
