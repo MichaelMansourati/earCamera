@@ -30,7 +30,7 @@ html {
       min-height: 100vh;
       display: -webkit-flex;
       -webkit-flex-direction: column;
-      width: 100%;
+      width: 100vw;
       h1#title {
         align-self: center;
         font-size: 50px;
@@ -38,21 +38,17 @@ html {
       div.page-goes-here {
         display: -webkit-flex;
         flex-direction: row;
-        margin: 60px 25px 0px 25px;
+        margin: 60px 25px 0px;
         align-self: center;
         max-width: 100%;
-        div.imgs {
-          display: flex;
-          width: 900px;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          img.description {
-            width: 33%;
-          }
-          img.theBand {
-            width: 66%;
-          }
+        div.textArea {
+          max-width: 560px;
+          text-align: justify;
+          margin-right: 25px;
+        }
+        .youtube {
+          max-width: 100%;
+          border: none;
         }
       }
     }
@@ -76,20 +72,14 @@ html {
       }
       div.contentArea {
         div.page-goes-here {
-          flex-direction: column;
-          max-width: 100%;
-          div.imgs {
+          -webkit-flex-direction: column;
+          div.textArea {
             width: 100%;
-            flex-direction: column;
-            align-items: center;
-            img.description {
-              width: 80%;
-              height: auto;
-            }
-            img.theBand {
-              width: 80%;
-              height: auto;
-            }
+          }
+          img.theBand {
+            width: 100%;
+            height: auto;
+            max-width: none;
           }
         }
       }
