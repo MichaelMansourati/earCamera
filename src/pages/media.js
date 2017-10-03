@@ -12,7 +12,7 @@ const media = () => (
     <div className="contentArea">
       <h1 id="title">ear camera</h1>
       <Navbar/>
-      <div className="page-goes-here">
+      <div className="media-page-goes-here">
         <iframe className="soundCloud" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/345087319&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
         <p>
           recorded at le Cagibi, Montreal QC, 21-05-17<br/><br/>
