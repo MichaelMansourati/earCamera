@@ -50,6 +50,10 @@ const About = () => (
           <i className="fa fa-twitter" aria-hidden="true">
           </i>
         </a>
+        <span className="faSlash"> // </span>
+        <a href="mailto:mail@ear.camera">
+          <i className="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>
       </p>
     </div>
     <iframe className="youtube" width="560" height="315" src="https://www.youtube.com/embed/Ke0VSWKGJuc" frameborder="0" allowfullscreen></iframe>
