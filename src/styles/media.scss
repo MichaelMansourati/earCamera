@@ -1,41 +1,21 @@
 html {
   div.mainContainer {
     div.contentArea {
-      div.page-goes-here {
+      div.media-page-goes-here {
+        display: -webkit-flex;
+        -webkit-flex-direction: column;
+        margin: 60px 25px 0px;
+        align-self: center;
+        max-width: 100%;
         justify-content: center;
-        display: flex;
-        flex-direction: row;
-        div.centeringDiv {
+        .soundCloud {
           display: flex;
-          flex-direction: column;
-          justify-content: center;
-          p.mediaForthcoming {
-            text-decoration: italic;
-          }
-          img.legg {
-            width: 430px;
-            max-width: 100%;
-            height: 100%;
-            margin-bottom: 0;
-          }
+          border: none;
+          width: 900px;
+          max-width: 100%;
         }
-      }
-    }
-  }
-}
-
-@media (max-width: 879px) {
-  html {
-    div.mainContainer {
-      div.contentArea {
-        div.page-goes-here {
-          div.centeringDiv {
-            p.mediaForthcoming {
-            }
-            img.legg {
-              display: none;
-            }
-          }
+        p {
+          max-width: 900px;
         }
       }
     }
