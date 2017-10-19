@@ -24,7 +24,7 @@ const About = () => (
         <span> // </span>
         <a target="_blank" href="http://www.jglasermusic.com">Joseph Glaser</a>
         <span> // </span>
-        <span>Noa Haran</span>
+        <a target="_blank" href="https://soundcloud.com/noa-haran">Noa Haran</a>
         <span> // </span>
         <a target="_blank" href="https://soundcloud.com/justin-jaramillo-7">Justin Jaramillo</a>
         <span> // </span>
@@ -41,14 +41,16 @@ const About = () => (
         <a target="_blank" href="https://www.soundcloud.com/keithstratton">Keith Stratton</a>
       </p>
       <p>
+        <a target="_blank" href="https://www.facebook.com/EarCamera/">
+          <i className="fa fa-facebook-official" aria-hidden="true"></i>
+        </a>
+        <span className="faSlash"> // </span>
         <a target="_blank" href="https://www.instagram.com/ear_camera">
-          <i className="fa fa-instagram" aria-hidden="true">
-          </i>
+          <i className="fa fa-instagram" aria-hidden="true"></i>
         </a>
         <span className="faSlash"> // </span>
         <a target="_blank" href="https://twitter.com/earCamera">
-          <i className="fa fa-twitter" aria-hidden="true">
-          </i>
+          <i className="fa fa-twitter" aria-hidden="true"></i>
         </a>
         <span className="faSlash"> // </span>
         <a href="mailto:mail@ear.camera">

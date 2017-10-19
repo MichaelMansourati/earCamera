@@ -50,6 +50,9 @@ const events = () => (
             N.B. la salle est seulement accessible par escalier. | the space is only accessible by stairs.<br/>
             C.W. cet événement contient de la nudité | the show contains nudity
           </p>
+          <p>
+            <a href="https://www.facebook.com/events/171252370089029/">facebook</a>
+          </p>
         </div>
       </div>
     </div>
