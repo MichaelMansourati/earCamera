@@ -5,7 +5,7 @@ import Navbar from '../components/navbar.js'
 import About from '../components/about.js'
 import Title from '../components/title.js'
 
-import '../styles/index.scss'
+import '../styles/index.css'
 
 const about = () => (
   <div className="mainContainer">

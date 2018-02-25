@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import Navbar from '../components/navbar.js'
 import Title from '../components/title.js'
 
-import '../styles/events.scss'
+import '../styles/events.css'
 
 const events = () => (
   <div className="mainContainer">
@@ -28,22 +28,14 @@ const events = () => (
             </p>
             <p>
             A set of works that explore bodies, space, and togetherness.<br/>
-            Featuring two works by Amnon Wolman<br/>
-            [ http://www.amnonwolman.org/ ]<br/>
-            And new works by India Gailey and Joseph Glaser<br/>
-            [ https://indiayeshe.com/ ]<br/>
-            [ http://www.jglasermusic.com/ ]<br/>
+            Featuring two works by <a href="http://www.amnonwolman.org/">Amnon Wolman</a> and new works by <a href="https://indiayeshe.com/">India Gailey</a> and <a href="http://www.jglasermusic.com/">Joseph Glaser</a>
             </p>
             <p>
             | | |
             </p>
             <p>
               Un ensemble de pièces qui explore le corps humain, les lieux et l'unité.<br/>
-              Une présentation de deux pièces par Amnon Wolman<br/>
-              [ http://www.amnonwolman.org/ ]<br/>
-              Et des créations par India Gailey et Joseph Glaser<br/>
-              [ https://indiayeshe.com/ ]<br/>
-              [ http://www.jglasermusic.com/ ]<br/>
+              Une présentation de deux pièces par <a href="http://www.amnonwolman.org/">Amnon Wolman</a> et des créations par <a href="https://indiayeshe.com/">India Gailey</a> et <a href="http://www.jglasermusic.com/">Joseph Glaser</a>
             </p>
             <p>
               __________
@@ -73,9 +65,9 @@ const events = () => (
             <p>
               Works include:
               <br />
-              Noa Haran: Millennial Dialogue
+              <a href="https://soundcloud.com/noa-haran">Noa Haran</a>: Millennial Dialogue
               <br />
-              Keith Stratton: Empathy Manoeuvre #1
+              <a href="https://www.soundcloud.com/keithstratton">Keith Stratton</a>: Empathy Manoeuvre #1
               <br />
               Michael Pisaro: Tombstones
             </p>

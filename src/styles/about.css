@@ -1,0 +1,21 @@
+div.textArea {
+  max-width: 560px;
+  text-align: justify;
+  margin-right: 25px;
+}
+.youtube {
+  max-width: 100%;
+  border: none;
+}
+.fa {
+  font-size: 20px;
+}
+span.faSlash {
+  font-size: 20px;
+}
+
+@media (max-width: 879px) {
+  div.textArea {
+    width: 100%;
+  }
+}
