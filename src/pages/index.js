@@ -7,11 +7,6 @@ import Title from '../components/title.js'
 
 import '../styles/index.scss'
 
-
-import legg from '../images/legg.jpg'
-import transcripts from '../images/transcripts.png'
-import ensemble from '../images/ensemble.jpg'
-
 const IndexPage = () => (
   <div className="mainContainer">
     <div className="splash">

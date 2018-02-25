@@ -7,9 +7,6 @@ import Title from '../components/title.js'
 
 import '../styles/index.scss'
 
-import transcripts from '../images/transcripts.png'
-import ensemble from '../images/ensemble.jpg'
-
 const about = () => (
   <div className="mainContainer">
     <div className="contentArea">

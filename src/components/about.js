@@ -18,8 +18,6 @@ const About = () => (
         <span>Ear Camera is: </span>
         <a target="_blank" href="http://www.tommysaxophone.com">Tommy Davis</a>
         <span> // </span>
-        <span>Suzu Enns</span>
-        <span> // </span>
         <a target="_blank" href="https://www.indiayeshe.com">India Gailey</a>
         <span> // </span>
         <a target="_blank" href="http://www.jglasermusic.com">Joseph Glaser</a>
@@ -32,7 +30,8 @@ const About = () => (
         <span> // </span>
         <a target="_blank" href="http://iwastherebyaccident.tumblr.com/">Francis Leduc-Bélanger</a>
         <span> // </span>
-        <a target="_blank" href="http://michaelmansourati.com">Michael Mansourati</a>
+        <a target="_blank" href="http://michaelmansourati.com">
+          Michael Mansourati</a>
         <span> // </span>
         <span>Chris Paul</span>
         <span> // </span>
@@ -58,7 +57,7 @@ const About = () => (
         </a>
       </p>
     </div>
-    <iframe className="youtube" width="560" height="315" src="https://www.youtube.com/embed/Ke0VSWKGJuc" frameborder="0" allowfullscreen></iframe>
+    <iframe className="youtube" width="560" height="315" src="https://www.youtube.com/embed/Ke0VSWKGJuc" frameborder="0" allowFullScreen></iframe>
   </div>
 )
 
