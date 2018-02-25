@@ -4,8 +4,6 @@ import Link from 'gatsby-link'
 import Navbar from '../components/navbar.js'
 import Title from '../components/title.js'
 
-import legg from '../images/legg.jpg'
-
 import '../styles/media.scss'
 
 const media = () => (

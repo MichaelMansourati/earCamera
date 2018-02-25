@@ -18,13 +18,11 @@ const About = () => (
         <span>Ear Camera is: </span>
         <a target="_blank" href="http://www.tommysaxophone.com">Tommy Davis</a>
         <span> // </span>
-        <span>Suzu Enns</span>
-        <span> // </span>
         <a target="_blank" href="https://www.indiayeshe.com">India Gailey</a>
         <span> // </span>
         <a target="_blank" href="http://www.jglasermusic.com">Joseph Glaser</a>
         <span> // </span>
-        <span>Noa Haran</span>
+        <a target="_blank" href="https://soundcloud.com/noa-haran">Noa Haran</a>
         <span> // </span>
         <a target="_blank" href="https://soundcloud.com/justin-jaramillo-7">Justin Jaramillo</a>
         <span> // </span>
@@ -32,7 +30,8 @@ const About = () => (
         <span> // </span>
         <a target="_blank" href="http://iwastherebyaccident.tumblr.com/">Francis Leduc-Bélanger</a>
         <span> // </span>
-        <a target="_blank" href="http://michaelmansourati.com">Michael Mansourati</a>
+        <a target="_blank" href="http://michaelmansourati.com">
+          Michael Mansourati</a>
         <span> // </span>
         <span>Chris Paul</span>
         <span> // </span>
@@ -41,14 +40,16 @@ const About = () => (
         <a target="_blank" href="https://www.soundcloud.com/keithstratton">Keith Stratton</a>
       </p>
       <p>
+        <a target="_blank" href="https://www.facebook.com/EarCamera/">
+          <i className="fa fa-facebook-official" aria-hidden="true"></i>
+        </a>
+        <span className="faSlash"> // </span>
         <a target="_blank" href="https://www.instagram.com/ear_camera">
-          <i className="fa fa-instagram" aria-hidden="true">
-          </i>
+          <i className="fa fa-instagram" aria-hidden="true"></i>
         </a>
         <span className="faSlash"> // </span>
         <a target="_blank" href="https://twitter.com/earCamera">
-          <i className="fa fa-twitter" aria-hidden="true">
-          </i>
+          <i className="fa fa-twitter" aria-hidden="true"></i>
         </a>
         <span className="faSlash"> // </span>
         <a href="mailto:mail@ear.camera">
@@ -56,7 +57,7 @@ const About = () => (
         </a>
       </p>
     </div>
-    <iframe className="youtube" width="560" height="315" src="https://www.youtube.com/embed/Ke0VSWKGJuc" frameborder="0" allowfullscreen></iframe>
+    <iframe className="youtube" width="560" height="315" src="https://www.youtube.com/embed/Ke0VSWKGJuc" frameborder="0" allowFullScreen></iframe>
   </div>
 )
 
