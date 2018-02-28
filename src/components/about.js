@@ -43,6 +43,7 @@ const About = () => (
           <i className="fa fa-envelope-o" aria-hidden="true"></i>
         </a>
       </p>
+      <p>Logo by <a href="https://www.kasiasuro.com">Kasia Suro</a>.</p>
     </div>
     <iframe className="youtube" width="560px" height="315px" src="https://www.youtube.com/embed/65dl6LzR1ec" frameBorder="0" allowFullScreen></iframe>
   </div>
