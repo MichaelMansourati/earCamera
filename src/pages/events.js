@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import Navbar from '../components/navbar.js'
 import Title from '../components/title.js'
 
-import '../styles/events.scss'
+import '../styles/events.css'
 
 const events = () => (
   <div className="mainContainer">
@@ -12,8 +12,44 @@ const events = () => (
       <Title/>
       <Navbar/>
       <div className="page-goes-here">
-        <div className="event-wrapper">
-        <h2>Past Events</h2>
+        <div id="event-wrapper">
+          <h2>Future Events</h2>
+          <div className="event">
+            <h3>Sunday, April 1st, 2018</h3>
+            <p>
+              <strong>Family Gathering</strong><br />
+              <strong>Réunion de famille</strong>
+            </p>
+            <p>
+              Loft 314 // portes 19h30 | 7:30pm doors, concert 20h | 8pm show // $5 ou | or PWYC
+            </p>
+            <p>
+            __________
+            </p>
+            <p>
+              A weekend concert where we get together, eat, tell stories, and listen.
+              Featuring the work of Ear Camera members in duos and trios.
+              A light vegetarian meal will be served.
+            </p>
+            <p>
+              | | |
+            </p>
+            <p>
+              Un concert du weekend ou nous rassemblons, mangeons, racontons les histoires et nous écoutons.
+              Une présentations de comprovisations du membres de Ear Camera en duo ou trio.
+              Un petit repas végétalien sera servi.
+            </p>
+            <p>
+            __________
+            </p>
+            <p>
+              N.B. la salle est seulement accessible par quelques marches, il y a un ascenseur dans l'immeuble. | the space is only accessible by a few steps, there is an elevator in the building.
+            </p>
+            <p>
+              Avis Allergie: Il y a un chat qui habite dans l'espace | Allergy Warnings: there is a cat that lives in the space.
+            </p>
+          </div>
+          <h2>Past Events</h2>
           <div className="event">
             <h3>Friday, October 13th 2017</h3>
             <p>
@@ -21,29 +57,21 @@ const events = () => (
               <strong>Language Corporel</strong>
             </p>
             <p>
-              Psychic City // portes 19h | 7pm doors, concert 20h | 8pm show // BYOB // $5 ou | or PWYC
+              Psychic City // portes 19h | 7pm doors // concert 20h | 8pm show // BYOB // $5 ou | or PWYC
             </p>
             <p>
             __________
             </p>
             <p>
             A set of works that explore bodies, space, and togetherness.<br/>
-            Featuring two works by Amnon Wolman<br/>
-            [ http://www.amnonwolman.org/ ]<br/>
-            And new works by India Gailey and Joseph Glaser<br/>
-            [ https://indiayeshe.com/ ]<br/>
-            [ http://www.jglasermusic.com/ ]<br/>
+            Featuring two works by <a href="http://www.amnonwolman.org/">Amnon Wolman</a> and new works by <a href="https://indiayeshe.com/">India Gailey</a> and <a href="http://www.jglasermusic.com/">Joseph Glaser</a>
             </p>
             <p>
             | | |
             </p>
             <p>
               Un ensemble de pièces qui explore le corps humain, les lieux et l'unité.<br/>
-              Une présentation de deux pièces par Amnon Wolman<br/>
-              [ http://www.amnonwolman.org/ ]<br/>
-              Et des créations par India Gailey et Joseph Glaser<br/>
-              [ https://indiayeshe.com/ ]<br/>
-              [ http://www.jglasermusic.com/ ]<br/>
+              Une présentation de deux pièces par <a href="http://www.amnonwolman.org/">Amnon Wolman</a> et des créations par <a href="https://indiayeshe.com/">India Gailey</a> et <a href="http://www.jglasermusic.com/">Joseph Glaser</a>
             </p>
             <p>
               __________
@@ -73,9 +101,9 @@ const events = () => (
             <p>
               Works include:
               <br />
-              Noa Haran: Millennial Dialogue
+              <a href="https://soundcloud.com/noa-haran">Noa Haran</a>: Millennial Dialogue
               <br />
-              Keith Stratton: Empathy Manoeuvre #1
+              <a href="https://www.soundcloud.com/keithstratton">Keith Stratton</a>: Empathy Manoeuvre #1
               <br />
               Michael Pisaro: Tombstones
             </p>

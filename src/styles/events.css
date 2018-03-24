@@ -1,6 +1,7 @@
 #event-wrapper {
   display: -webkit-flex;
   flex-direction: column;
+  max-width: 800px;
 }
 
 .event + .event {

@@ -1,0 +1,49 @@
+html {
+  background-color: white;
+}
+
+div.splash {
+  height: 100vh;
+  background: url("../images/logo.jpg") no-repeat center center fixed;
+  background-size: contain;
+  background-color: black;
+  overflow-x: hidden;
+}
+#down-arrow {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 0;
+}
+div.contentArea {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+div.page-goes-here {
+  display: flex;
+  flex-direction: row;
+  margin: 60px 25px 0px;
+  align-self: center;
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+@media (max-width: 879px) {
+  div.splash {
+    width: 100%;
+    height: min-content;
+  }
+  div.page-goes-here {
+    flex-direction: column;
+  }
+}
+
