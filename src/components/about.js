@@ -20,9 +20,7 @@ const About = () => (
         <a target="_blank" href="https://soundcloud.com/noa-haran">Noa Haran</a><span> // </span>
         <a target="_blank" href="https://soundcloud.com/justin-jaramillo-7">Justin Jaramillo</a><span> // </span>
         <a target="_blank" href="https://soundcloud.com/michaelkimsheng">Michael Kim-Sheng</a><span> // </span>
-        <a target="_blank" href="http://iwastherebyaccident.tumblr.com/">Francis Leduc-Bélanger</a><span> // </span>
         <a target="_blank" href="http://michaelmansourati.com">Michael Mansourati</a><span> // </span>
-        <span>Chris Paul</span><span> // </span>
         <a target="_blank" href="http://www.jamesrubinomusic.com">James Rubino</a><span> // </span>
         <a target="_blank" href="https://www.soundcloud.com/keithstratton">Keith Stratton</a>
       </p>
@@ -45,7 +43,10 @@ const About = () => (
       </p>
       <p>Logo by <a href="https://www.kasiasuro.com">Kasia Suro</a>.</p>
     </div>
-    <iframe className="youtube" width="560px" height="315px" src="https://www.youtube.com/embed/65dl6LzR1ec" frameBorder="0" allowFullScreen></iframe>
+    <div className="yt-caption-container">
+      <iframe className="youtube" id="about-yt" width="560px" height="315px" src="https://www.youtube.com/embed/65dl6LzR1ec" frameBorder="0" allowFullScreen></iframe>
+      <span>Video by <a target="_blank" href="http://iwastherebyaccident.tumblr.com/">Francis Leduc-Bélanger</a>.</span>
+    </div>
   </div>
 )
 
