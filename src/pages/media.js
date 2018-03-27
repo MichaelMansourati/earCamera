@@ -6,16 +6,22 @@ import Title from '../components/title.js'
 
 import '../styles/media.css'
 
+import blur from '../images/blur.jpg'
+import ensemble from '../images/ensemble.jpg'
+import tommy from '../images/tommy.jpg'
+
 const media = () => (
   <div className="mainContainer">
     <div className="contentArea">
       <Title/>
       <Navbar/>
       <div className="media-page-goes-here">
-        <div className="yt-caption-container">
+        <div className="yt-container yt-container-media">
           <iframe className="youtube" id="youtube-media" width="560" height="315" src="https://www.youtube.com/embed/Ke0VSWKGJuc" frameBorder="0" allowFullScreen></iframe>
-          <span>Video by <a target="_blank" href="http://iwastherebyaccident.tumblr.com/">Francis Leduc-Bélanger</a>.</span>
         </div>
+        <img src={blur} />
+        <img src={tommy} />
+        <img src={ensemble} />
       </div>
     </div>
   </div>

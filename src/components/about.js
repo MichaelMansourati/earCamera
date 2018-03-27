@@ -43,9 +43,8 @@ const About = () => (
       </p>
       <p>Logo by <a href="https://www.kasiasuro.com">Kasia Suro</a>.</p>
     </div>
-    <div className="yt-caption-container">
+    <div className="yt-container">
       <iframe className="youtube" id="about-yt" width="560px" height="315px" src="https://www.youtube.com/embed/65dl6LzR1ec" frameBorder="0" allowFullScreen></iframe>
-      <span>Video by <a target="_blank" href="http://iwastherebyaccident.tumblr.com/">Francis Leduc-Bélanger</a>.</span>
     </div>
   </div>
 )

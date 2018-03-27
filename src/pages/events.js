@@ -4,8 +4,6 @@ import Link from 'gatsby-link'
 import Navbar from '../components/navbar.js'
 import Title from '../components/title.js'
 
-import family from '../images/EarCamera_FamilyGathering.jpg'
-
 import '../styles/events.css'
 
 const events = () => (
