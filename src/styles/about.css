@@ -44,7 +44,7 @@ span.faSlash {
   font-size: 20px;
 }
 
-@media (max-width: 879px) {
+@media (max-width: 999px) {
   div.textArea {
     margin-right: 0;
     width: 96%;

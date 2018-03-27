@@ -13,7 +13,7 @@ const events = () => (
       <Navbar/>
       <div className="page-goes-here">
         <div id="event-wrapper">
-          <h2>Future Events</h2>
+          <h2 id="future-events">Future Events</h2>
           <div className="event">
             <h3>Sunday, April 1st, 2018</h3>
             <p>

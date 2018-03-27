@@ -2,10 +2,15 @@
   display: -webkit-flex;
   flex-direction: column;
   max-width: 800px;
+  width: 96%;
 }
 
-.event + .event, #past-events {
+.event + .event {
   margin-top: 30px;
   padding-top: 30px;
-  border-top: 8px black dotted;
+  border-top: 4px black dotted;
+}
+
+#past-events, #future-events {
+  border-bottom: 4px black solid;
 }
