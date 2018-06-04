@@ -9,20 +9,23 @@ import Title from '../components/title.js'
 import '../styles/index.css'
 import '../styles/normalize.css'
 
-const IndexPage = () => (
-  <div>
-  <Helmet>
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
-    </Helmet>
-    <div className="splash">
-      <p id="down-arrow">▾</p>
-    </div>
-    <div className="contentArea">
-      <Title/>
-      <Navbar/>
-      <About/>
-    </div>
-  </div>
-)
+export default class IndexPage extends React.Component {
 
-export default IndexPage
+  render(){
+    return(
+      <div>
+      <Helmet>
+          <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+        </Helmet>
+        <div id="splash">
+          <p id="down-arrow">▾</p>
+        </div>
+        <div className="contentArea">
+          <Title/>
+          <Navbar/>
+          <About/>
+        </div>
+      </div>
+    );
+  }
+};

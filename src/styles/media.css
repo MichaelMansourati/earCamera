@@ -3,8 +3,14 @@ div.media-page-goes-here {
   flex-direction: column;
   margin: 60px 25px 0px;
   align-self: center;
+  width: 800px;
   max-width: 100%;
   justify-content: center;
+}
+
+.yt-container-media {
+  margin-bottom: 1.45rem;
+  max-width: unset;
 }
 
 #youtube-media {

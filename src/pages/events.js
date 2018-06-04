@@ -13,7 +13,7 @@ const events = () => (
       <Navbar/>
       <div className="page-goes-here">
         <div id="event-wrapper">
-          <h2>Future Events</h2>
+          <h2 id="future-events">Future Events</h2>
           <div className="event">
             <h3>Sunday, April 1st, 2018</h3>
             <p>
@@ -48,8 +48,11 @@ const events = () => (
             <p>
               Avis Allergie: Il y a un chat qui habite dans l'espace | Allergy Warnings: there is a cat that lives in the space.
             </p>
+            <p>
+              <a href="https://www.facebook.com/events/568168736885860/" target="_blank">facebook</a>
+            </p>
           </div>
-          <h2>Past Events</h2>
+          <h2 id="past-events" >Past Events</h2>
           <div className="event">
             <h3>Friday, October 13th 2017</h3>
             <p>
@@ -64,14 +67,14 @@ const events = () => (
             </p>
             <p>
             A set of works that explore bodies, space, and togetherness.<br/>
-            Featuring two works by <a href="http://www.amnonwolman.org/">Amnon Wolman</a> and new works by <a href="https://indiayeshe.com/">India Gailey</a> and <a href="http://www.jglasermusic.com/">Joseph Glaser</a>
+            Featuring two works by <a href="http://www.amnonwolman.org/" target="_blank">Amnon Wolman</a> and new works by <a href="https://indiayeshe.com/">India Gailey</a> and <a href="http://www.jglasermusic.com/" target="_blank">Joseph Glaser</a>
             </p>
             <p>
             | | |
             </p>
             <p>
               Un ensemble de pièces qui explore le corps humain, les lieux et l'unité.<br/>
-              Une présentation de deux pièces par <a href="http://www.amnonwolman.org/">Amnon Wolman</a> et des créations par <a href="https://indiayeshe.com/">India Gailey</a> et <a href="http://www.jglasermusic.com/">Joseph Glaser</a>
+              Une présentation de deux pièces par <a href="http://www.amnonwolman.org/" target="_blank">Amnon Wolman</a> et des créations par <a href="https://indiayeshe.com/" target="_blank">India Gailey</a> et <a href="http://www.jglasermusic.com/" target="_blank">Joseph Glaser</a>
             </p>
             <p>
               __________
@@ -81,7 +84,7 @@ const events = () => (
               C.W. cet événement contient de la nudité | the show contains nudity
             </p>
             <p>
-              <a href="https://www.facebook.com/events/171252370089029/">facebook</a>
+              <a href="https://www.facebook.com/events/171252370089029/" target="_blank">facebook</a>
             </p>
           </div>
           <div className="event">
@@ -101,14 +104,14 @@ const events = () => (
             <p>
               Works include:
               <br />
-              <a href="https://soundcloud.com/noa-haran">Noa Haran</a>: Millennial Dialogue
+              <a href="https://soundcloud.com/noa-haran" target="_blank">Noa Haran</a>: Millennial Dialogue
               <br />
-              <a href="https://www.soundcloud.com/keithstratton">Keith Stratton</a>: Empathy Manoeuvre #1
+              <a href="https://www.soundcloud.com/keithstratton" target="_blank">Keith Stratton</a>: Empathy Manoeuvre #1
               <br />
               Michael Pisaro: Tombstones
             </p>
             <p>
-              <a href="https://www.facebook.com/events/1662996830394909/?ti=cl">facebook</a>
+              <a href="https://www.facebook.com/events/1662996830394909/?ti=cl" target="_blank">facebook</a>
             </p>
           </div>
         </div>
