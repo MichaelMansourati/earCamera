@@ -8,6 +8,10 @@ import Title from '../components/title.js'
 import Events from '../components/events.js'
 import Media from '../components/media.js'
 
+import events from '../assets/events.js'
+
+console.log(events);
+
 import '../styles/index.css'
 import '../styles/normalize.css'
 
