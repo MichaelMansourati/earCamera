@@ -4,7 +4,7 @@ html {
 
 div#splash {
   height: 100vh;
-  background: url("../images/logo.jpg") no-repeat center center fixed;
+  background: url("../assets/logos/logo.jpg") no-repeat center center fixed;
   background-size: contain;
   background-color: black;
   overflow-x: hidden;
