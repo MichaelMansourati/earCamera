@@ -1,5 +1,5 @@
-import Typography from "typography"
-require("typeface-raleway")
+import Typography from 'typography'
+require('typeface-raleway')
 
 const typography = new Typography({
   headerFontFamily: ['raleway', 'sans-serif'],

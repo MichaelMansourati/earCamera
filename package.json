@@ -4,10 +4,15 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.26",
+    "gatsby": "^1.9.269",
+    "gatsby-cli": "^1.1.57",
+    "gatsby-image": "^1.0.51",
     "gatsby-link": "^1.6.15",
     "gatsby-plugin-react-helmet": "^1.0.5",
+    "gatsby-plugin-sharp": "^1.6.46",
     "gatsby-plugin-typography": "^1.7.9",
+    "gatsby-source-filesystem": "^1.5.38",
+    "gatsby-transformer-sharp": "^1.6.26",
     "typeface-raleway": "0.0.35"
   },
   "keywords": [
