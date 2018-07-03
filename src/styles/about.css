@@ -1,12 +1,42 @@
 div.textArea {
-  max-width: 560px;
+  width: 100%;
   text-align: justify;
   margin-right: 25px;
 }
-.youtube {
-  max-width: 100%;
-  border: none;
+
+.yt-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 700px;
 }
+
+.yt-container:before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+
+.youtube {
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin-bottom: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.yt-caption-container {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .fa {
   font-size: 20px;
 }
@@ -14,8 +44,10 @@ span.faSlash {
   font-size: 20px;
 }
 
-@media (max-width: 879px) {
+@media (max-width: 999px) {
   div.textArea {
-    width: 100%;
+    margin-right: 0;
+    width: 96%;
+    max-width: 700px;
   }
 }

@@ -10,9 +10,9 @@ import '../styles/index.css'
 const about = () => (
   <div className="mainContainer">
     <div className="contentArea">
-      <Title/>
-      <Navbar/>
-      <About/>
+      <Title />
+      <Navbar />
+      <About />
     </div>
   </div>
 )
