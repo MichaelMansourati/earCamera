@@ -1,13 +1,9 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Ear Camera
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+A website I built using the React.js based static site framework Gatsby.js for the contemporary music collective Ear Camera.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+## Preview
 
-## Deploy
+![front-page/logo](./docs/EC1Splash.png)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+!["about" page](./docs/EC2Splash.png)
