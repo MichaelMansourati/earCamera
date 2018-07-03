@@ -10,8 +10,6 @@ import Media from '../components/media.js'
 
 import events from '../assets/events.js'
 
-console.log(events);
-
 import '../styles/index.css'
 import '../styles/normalize.css'
 
@@ -34,7 +32,7 @@ export default class IndexPage extends React.Component {
           <div className="contentArea">
             <Title />
             <Navbar />
-            <About style={{ minHeight: "100vh" }} />
+            <About />
             <Events />
             <Media />
           </div>

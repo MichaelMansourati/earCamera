@@ -11,7 +11,7 @@ import ensemble from '../assets/photography/ensemble.jpg'
 import tommy from '../assets/photography/tommy.jpg'
 
 const media = () => (
-  <div className="media-page-goes-here">
+  <div className="media-page-goes-here" id="media">
     <div className="yt-container yt-container-media">
       <iframe
         className="youtube"

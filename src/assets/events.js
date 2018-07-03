@@ -1,8 +1,10 @@
 module.exports = [
   {
     EnsembleAKA: {
-      date: Date('May 8, 2018 20:00:00'),
-      //doors: this.date - 30*60000,
+      date: new Date('May 8, 2018 20:00:00'),
+      doors: function(){
+        return (this.date).toString();
+      },
       admission: "$10",
       location: "Loft 314",
       notesEn:

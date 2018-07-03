@@ -5,15 +5,15 @@ import '../styles/navbar.css'
 
 const Navbar = () => (
   <div className="navigation">
-    <Link className="link" to="/about/">
+    <a className="link" href="#about">
       about
-    </Link>
-    <Link className="link" to="/events/">
+    </a>
+    <a className="link" href="#events">
       events
-    </Link>
-    <Link className="link" to="/media/">
+    </a>
+    <a className="link" href="#media">
       media
-    </Link>
+    </a>
   </div>
 )
 
