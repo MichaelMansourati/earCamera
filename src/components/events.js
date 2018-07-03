@@ -7,7 +7,7 @@ import Title from '../components/title.js'
 import '../styles/events.css'
 
 const events = () => (
-  <div className="page-goes-here">
+  <div className="page-goes-here" id="events">
     <div id="event-wrapper">
       <h2 id="future-events">Future Events</h2>
       <div className="event">
