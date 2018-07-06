@@ -2,7 +2,7 @@ import React from 'react'
 import Img from 'gatsby-image'
 
 const MobileSplash = props => (
-  <div>
+  <div id="mobile-splash">
     <Img sizes={props.sizes} />
   </div>
 )
