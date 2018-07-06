@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 import '../styles/about.css'
 
 const About = () => (
-  <div className="page-goes-here">
+  <div className="page-goes-here" id="about">
     <Helmet>
       <link
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"

@@ -39,6 +39,10 @@ h2 {
   font-size: 30px;
 }
 
+#mobile-splash {
+  display: none;
+}
+
 @media (max-width: 999px) {
   div.page-goes-here {
     flex-direction: column;
@@ -48,6 +52,10 @@ h2 {
 
   div#splash {
     display: none;
+  }
+
+  #mobile-splash {
+    display: block;
   }
 }
 
